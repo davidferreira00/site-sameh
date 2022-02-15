@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200&family=Righteous&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.bloco-primeiro{
+    background-color: #66CDAA;
+    font-family: 'Poppins', sans-serif;
+    padding: 3px;
+    position: relative;
+    display: flex;
+}
+
+.numero{
+    margin-right: auto;
+    margin-left: 35px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+    
+}
+
+.bloco-primeiro a{
+    position: relative;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+.texto{
+    margin-left: auto;
+    margin-right: 35px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+---------------------------------------------
+
+.abas-cabecalho{
+    display: table;
+    position: relative;
+    padding: 20px;
+    
+}
+
+.logo-sameh{
+    display: table-cell;
+    display: inline;
+    float: left;
+    position: relative;
+    
+}
+
+.abas-cabecalho li{
+    display: table-cell;
+    display: inline;
+    float: right;
+    text-align: right;
+    position: relative;
+   padding-left: 10px;
+  
+}
+
+.abas-cabecalho li a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    transition: background .5s;
+
+    
+}
+
+.abas-cabecalho li a:hover{
+    background-color: #66CDAA;
+}
